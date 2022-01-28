@@ -13,4 +13,5 @@
  * https://siderite.dev/blog/javascript-iterators-and-generator-functions-slow/
  * https://x.st/javascript-coroutines/
  * https://egghead.io/lessons/javascript-use-a-generator-like-a-closure
+ * https://github.com/tc39/proposal-async-await
  */
