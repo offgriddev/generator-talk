@@ -51,10 +51,10 @@ function* stageThreePromises() {
   }
 }
 
-async function doTheWork() {
-  co.wrap(stageOnePromises);
-  co.wrap(stageTwoPromises);
-  co.wrap(stageThreePromises);
+function doTheWork() {
+  const stageOne = co.wrap(stageOnePromises);
+  const stageTwo = co.wrap(stageTwoPromises);
+  const stageThree = co.wrap(stageThreePromises);
 }
 
 // More information see: https://www.npmjs.com/package/co

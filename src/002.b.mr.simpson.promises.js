@@ -21,6 +21,27 @@ trustablePromise
   .then(() => '...')                                                     // v
   .then(() => '...and on')
   .then(() => '...')
+  .then(() => (
+    Promise.resolve()
+      .then(() => (
+        Promise.resolve()
+          .then(() => (
+            Promise.resolve()
+              .then(() => (
+                Promise.resolve()
+                  .then(() => (
+                    Promise.resolve()
+                      .then(() => (
+                        Promise.resolve()
+                          .then(() => (
+                            'Promises do then themselves provide an intelligible structure to our code.'
+                          ))
+                      ))
+                  ))
+              ))
+          ))
+      ))
+  ))
   .then(() => '...')
   .then(() => '...and on')
   .then(() => '...')

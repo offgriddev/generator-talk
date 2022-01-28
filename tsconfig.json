@@ -2,6 +2,7 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
+    "target": "es2021",
     "rootDir": "./src",
     "noImplicitAny": true,
     "moduleResolution": "node",

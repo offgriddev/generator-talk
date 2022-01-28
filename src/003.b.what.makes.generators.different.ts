@@ -20,7 +20,7 @@ function goToTheEnd () {
  * return;
  */
 
-// generators break the run to completion model
+// generators/iterators break the run to completion model
 
 function* pauseForEach () {
   yield 1;
@@ -35,6 +35,7 @@ for(const val of pauseForEach()) {
  * const iterator = pauseForEach(); { value: null, next(), done: false }
  * pauseForEach.next() // 1 { value: 1, next(), done: false }
  * pauseForEach.next() // 2 { value: 2, next(), done: false }
- * pauseForEach.next() // 3 { value: 3, next(), done: true }
+ * pauseForEach.next() // 3 { value: 3, next(), done: false }
+ * pauseForEach.next() // 4 { value: undefined, done: true }
  * return;
  */

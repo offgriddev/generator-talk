@@ -1,4 +1,6 @@
 /**
+ * References for the curious:
+ *
  * https://davidwalsh.name/es6-generators - Kyle Simpson
  * https://exploringjs.com/es6/ch_generators.html - ExploringJS
  * https://github.com/tj/co - co.js provides Coroutines for wrapping promises in generators
@@ -9,4 +11,5 @@
  * https://dev.to/alekseiberezkin/es6-generators-vs-iterators-performance-1p7
  * https://medium.com/@saransh98/node-js-why-promise-is-faster-than-callback-9778c32b2d9d
  * https://siderite.dev/blog/javascript-iterators-and-generator-functions-slow/
+ * https://x.st/javascript-coroutines/
  */

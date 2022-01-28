@@ -2,14 +2,15 @@
  *
  *   Symbol: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
  *
- *   a built-in global object whose constructor returns a 'symbol' primitive
+ *   a built-in global object whose constructor returns a 'symbol' primitive (1 of the seven pimitives in JS)
  *   guaranteed to be unique
  *
  */
 
 /**
  *
- *   Symbol.iterator
+ *   Symbol.iterator: specifies the default iterator for an object (note: an Array is an Object and has
+ *   a default iterator)
  *
  *   use whenever:
  *    1. an object needs to be iterated

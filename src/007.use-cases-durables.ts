@@ -5,6 +5,13 @@
 const df = require("durable-functions");
 const moment = require('moment');
 
+// Durable Orchestrators use an iterator to save the state of
+// serverless execution of each Activity Function. Upon replying of a Durable function
+// the Orchestrator pulls the last run state from blob storage and uses it to
+// continue a given execution.
+//
+//
+// Durable Functions are an Azure equivalent to AWS Step Functions
 module.exports = df.orchestrator(function*(context) {
     yield context.df.callActivity("RequestApproval");
 
