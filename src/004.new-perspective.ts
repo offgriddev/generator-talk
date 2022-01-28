@@ -1,5 +1,5 @@
 // Benefits
-// 1. Every yield pauses execution making concurrently running code 'cooperative' concurrent
+// 1. Every yield pauses execution making concurrently running code 'cooperative' (non-blocking)
 //    - Cooperative v. Preemptive Concurrency
 //    - Cooperative: a function is "willing" to suspend its execution
 //    - Preemptive: a function that is "forced" to suspend its execution (e.g. code that is blocked from running)
@@ -7,6 +7,7 @@
 // 3. Manages state
 // 4. Allows for non-blocking loops
 // 5. Lazy Evaluation
+// 6. Infinite while loops do not block the event loop
 
 // Drawbacks
 // 1. Performance (plain-old iterators are often 2x faster than generators)

@@ -12,4 +12,5 @@
  * https://medium.com/@saransh98/node-js-why-promise-is-faster-than-callback-9778c32b2d9d
  * https://siderite.dev/blog/javascript-iterators-and-generator-functions-slow/
  * https://x.st/javascript-coroutines/
+ * https://egghead.io/lessons/javascript-use-a-generator-like-a-closure
  */
